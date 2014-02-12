@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               URI
-version:            1.54
+version:            1.60
 abstract:           Uniform Resource Identifiers (absolute and relative)
 author:
     - Gisle Aas <gisle@activestate.com>
@@ -10,17 +10,19 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
+    Test:                 0
+    Test::More:           0
 requires:
     MIME::Base64:  2
-    perl:          5.006001
+    perl:          5.008001
 resources:
     MailingList:  mailto:libwww@perl.org
-    repository:   http://gitorious.org/projects/perl-uri
+    repository:   https://github.com/libwww-perl/uri
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.57_05
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

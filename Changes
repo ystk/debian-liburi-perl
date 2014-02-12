@@ -1,3 +1,98 @@
+2012-03-25   Gisle Aas <gisle@ActiveState.com>
+
+  Release 1.60
+
+  Gisle Aas (3):
+      Merge pull request #4 from hiratara/fix-repourl
+      Updated repository URL
+      Avoid failure if the local hostname is 'foo' [RT#75519]
+
+  Masahiro Honma (1):
+      Fix the URL of the repository.
+
+  Matt Lawrence (1):
+      Do not reverse the order of new parameters
+
+  Peter Rabbitson (1):
+      Fix RT#59274 - courtesy of a stupid 5.8.[12] join bug
+
+
+
+
+2011-08-15   Gisle Aas <gisle@ActiveState.com>
+
+  Release 1.59
+
+  Make sure accessor methods don't return utf8::upgraded() bytes
+  for URLs initialized from Unicode strings.
+
+  Version number increments.
+
+  Documentation tweaks.
+
+
+
+2011-01-23   Gisle Aas <gisle@ActiveState.com>
+
+  Release 1.58
+
+  This release reverts the patch in 1.57 that made query_form distingush
+  between empty and undef values.  It broke stuff. [RT#62708]
+
+
+
+2011-01-22   Gisle Aas <gisle@ActiveState.com>
+
+  Release 1.57
+
+  Mark Stosberg (8):
+      typo fix: s/do deal/to deal/
+      best practice: s/foreach /for /
+      Whitespace: fix inconsistent use of tabs vs spaces
+      Code style: fix inconsistency with subroutine braces at the end of the     line vs below it.
+      Modernize: s/use vars/our/ ... since we require 5.6 as a minimum version now
+      Whitespace: fix indentation so blocks are consistently indented
+      Add formal terms "Percent-encode" and "Percent-decode" to the NAME and description to match the RFC
+      Drop support for Perl < 5.8.1         Perl 5.8 was released almost 10 years ago. It's time.
+
+  Gisle Aas (6):
+      Convert test to use Test::More
+      Adjust tests for query_form
+      Avoid "Use of uninitialized value"-noise from query_form
+      State test dependencies [RT#61538]
+      We also depend on ExtUtils::MakeMaker
+      State 5.8 dependency in the META.yml file
+
+  Ville Skyttä (2):
+      Guess HTTPS and FTP from URI::Heuristic input with port but no scheme.
+      Try harder to guess scheme from hostnames besides just "$scheme.*" ones.
+
+  John Miller (1):
+      Distingush between empty and undef values in query_form [RT#62708]
+
+
+
+2010-10-06   Gisle Aas <gisle@ActiveState.com>
+
+   Release 1.56
+
+   Don't depend on DNS for the heuristics test
+
+
+
+2010-09-01   Gisle Aas <gisle@ActiveState.com>
+
+   Release 1.55
+
+   Gisle Aas (2):
+      Treat ? as a reserved character in file: URIs
+      " is not a URI character [RT#56421]
+
+   Torsten F<C3><B6>rtsch (1):
+      Avoid test failure unless defined $Config{useperlio}
+
+
+
 2010-03-31   Gisle Aas <gisle@ActiveState.com>
 
    Release 1.54

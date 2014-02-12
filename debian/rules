@@ -2,8 +2,3 @@
 
 %:
 	dh $@
-
-override_dh_auto_test:
-	touch OFFLINE
-	dh_auto_test
-	$(RM) OFFLINE

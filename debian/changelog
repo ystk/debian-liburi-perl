@@ -1,8 +1,63 @@
-liburi-perl (1.54-2) testing-proposed-updates; urgency=low
+liburi-perl (1.60-1) unstable; urgency=low
 
-  * Don't run online tests (closes: #601116).
+  * Team upload
 
- -- gregor herrmann <gregoa@debian.org>  Mon, 25 Oct 2010 23:31:36 +0200
+  [ Angel Abad ]
+  * Email change: Angel Abad -> angel@debian.org
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Update debian/copyright format as in Debian Policy 3.9.3
+  * Bump Standards-Version to 3.9.3
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Tue, 27 Mar 2012 17:26:35 +0200
+
+liburi-perl (1.59-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * [packagecheck] fixed Vcs-(Git|Browser)/Homepage field(s) in
+    debian/control and/or URL in debian/watch and/or rmdir
+    /usr/{lib|share}/perl5 in debian/rules.
+
+  [ Angel Abad ]
+  * Imported Upstream version 1.59
+  * Bump Standards-Version to 3.9.2 (no changes)
+  * debian/copyright: Update years
+  * Bump debhelper compatibility level to 8
+
+ -- Angel Abad <angelabad@gmail.com>  Wed, 17 Aug 2011 18:06:15 +0200
+
+liburi-perl (1.58-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Sun, 23 Jan 2011 12:29:46 +0100
+
+liburi-perl (1.57-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Angel Abad <angelabad@gmail.com>  Sat, 22 Jan 2011 22:14:49 +0100
+
+liburi-perl (1.56-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release:
+    - Don't depend on DNS for the heuristics test (closes: #601116)
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 25 Oct 2010 23:40:17 +0200
+
+liburi-perl (1.55-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders
+  * Update copyright file
+  * Bump Standards-Version to 3.9.1 (no changes)
+
+ -- Angel Abad <angelabad@gmail.com>  Fri, 03 Sep 2010 13:54:04 +0200
 
 liburi-perl (1.54-1) unstable; urgency=low
 

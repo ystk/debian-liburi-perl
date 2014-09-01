@@ -1,3 +1,38 @@
+liburi-perl (1.64-1) unstable; urgency=medium
+
+  [ Angel Abad ]
+  * Imported Upstream version 1.63
+
+  [ gregor herrmann ]
+  * New upstream release 1.64.
+  * Drop unversioned 'perl' from Depends.
+  * Build-depend on Test::More 0.96.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 20 Jul 2014 01:05:56 +0200
+
+liburi-perl (1.62-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.62
+  * debian/copyright: Update copyright years.
+
+ -- Angel Abad <angel@debian.org>  Sat, 12 Jul 2014 09:52:45 +0200
+
+liburi-perl (1.61-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of packaging copyright and Upstream-Contact.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 05 Jul 2014 13:06:15 +0200
+
 liburi-perl (1.60-1) unstable; urgency=low
 
   * Team upload
